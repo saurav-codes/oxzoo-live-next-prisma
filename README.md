@@ -1,6 +1,10 @@
 # next-prisma
 
-> **Role in the zoo:** project `next-prisma` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s3 at https://next-prisma.s3.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Guide for this stack](https://deploywithox.com/docs/guides/nextjs)
+
+**Live demo:** https://next-prisma.s3.zoo.sorv.dev
+
+> **Role in the zoo:** project `next-prisma` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s3 at https://next-prisma.s3.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 Next.js 15 with the App Router on s3: a guestbook rendered on the server from
 PostgreSQL through Prisma 7, with committed migrations that ox applies on
